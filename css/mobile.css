@@ -1,0 +1,61 @@
+
+                                                                  /* Start Login & Register Page */
+.mainForm{
+    width: 90%;
+}
+#registerForm {
+    width: 90%;
+}
+#registerForm .inner{
+    width: 100%;
+    display: block;
+}
+.mainForm input , .mainForm select{
+    margin:10px 0px 10px 30px;
+} 
+#registerForm input[name=address]{
+    margin:10px 0px 10px 30px;
+    width: 80%;
+
+}
+                                                                                                                         /* End Login & Register Page */
+
+
+
+
+                                                   /* Start Admin Page */
+#tableView{
+    width: 98%;
+}
+
+#employeeBrief{
+     width: 98%;
+     margin: 10px auto;
+ }
+.briefDiv{
+    width: 40%;
+    margin: 10px auto;
+}
+                                                                  #reportForm{
+                                                                      width: 100%;
+                                                                      text-align: center;
+                                                                  }
+#reportForm input , #reportForm select{
+    width: 80%;
+    margin: 10px auto;
+ }
+                                                                  /* End Admin Page */
+
+
+
+                                                                  /* Start Security Page */
+                                                                  /* End Security Page */
+
+
+
+                                                                  /* Start Employee Page */
+#calendar{
+    width: 98%;
+    padding: 10px;
+}
+                                                                  /* End Employee Page */

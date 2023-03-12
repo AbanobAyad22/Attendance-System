@@ -1,0 +1,41 @@
+
+                                                                  /* Start Login & Register Page */
+.mainForm{
+    width: 60%;
+    margin-top: 50px;
+}       
+.mainForm input{
+    margin: 10px 30px;
+}                                                          
+                                                                  /* End Login & Register Page */
+
+
+
+
+                                                                  /* Start Admin Page */
+#tableView{
+    width: 98%;
+}
+                                                                  #employeeBrief{
+                                                                      width: 98%;
+                                                                      margin: 10px auto;
+                                                                  }
+                                                                  .briefDiv{
+                                                                      width: 40%;
+                                                                      margin: 10px auto;
+                                                                  }
+                                                                  /* End Admin Page */
+
+
+
+                                                                  /* Start Security Page */
+                                                                  /* End Security Page */
+
+
+
+                                                                  /* Start Employee Page */
+#calendar{
+    width: 98%;
+    padding: 10px;
+}
+                                                                  /* End Employee Page */
