@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Employee |</title>
+    <noscript>Please Enable Javascript From Browser Setting</noscript>
+    <script>
+        if (localStorage.getItem("session") == "null"){
+            window.location.replace("../login.html");
+        }
+
+    </script>
+    <link href="../js/calender/lib/main.css" rel="stylesheet" />
+    <style>
+        @import url("../css/main.css");
+        @import url("../css/desktop.css") screen and (min-width: 1301px);
+        @import url("../css/tab.css") screen and (max-width: 1300px);
+        @import url("../css/mobile.css") screen and (max-width: 600px);
+    </style>
+    <script src="../js/calender/lib/main.js"></script>
+
+</head>
+
+<body>
+<nav>
+    <img src="../images/male.png">
+    <button onclick="logout()" id="logout">Logout</button>
+</nav>
+<div id="employeeBrief"></div>
+    <table id="tableView"></table>
+    <div id="calenderView">
+        <div id="calendar"></div>
+    </div>
+    <script src="../js/jquery-3.1.1.js"></script>
+    <script src="../js/jqueryUi/jquery-ui.js"></script>
+    <script src="../js/toast/toast.script.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        let nowDate = new Date();
+        let user = getLocalStorageData("session");
+        report(user["username"], "monthly", nowDate);
+        employeeBriefView(user["username"]);
+    </script>
+
+</body>
+
+</html>
